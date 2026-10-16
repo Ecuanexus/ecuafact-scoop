@@ -1,0 +1,30 @@
+{
+    "version": "0.0.1-preview",
+    "description": "CLI de facturacion electronica de Ecuafact para Ecuador (SRI): emite, valida, sigue y descarga comprobantes.",
+    "homepage": "https://docsapi.ecuafact.com/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Ecuanexus/ecuafact-cli/releases/download/v0.0.1-preview/ecuafact-0.0.1-preview-win-x64.zip",
+            "hash": "951b81073ec57e7484502056e8692e9f3893c29a51d5f9c97392c9d029e5a0b7"
+        },
+        "arm64": {
+            "url": "https://github.com/Ecuanexus/ecuafact-cli/releases/download/v0.0.1-preview/ecuafact-0.0.1-preview-win-arm64.zip",
+            "hash": "18c70905064e0c6df1bf3720bc55c51c86de5f69ea0a45308c11141a5f672cc1"
+        }
+    },
+    "bin": "ecuafact.exe",
+    "checkver": {
+        "github": "https://github.com/Ecuanexus/ecuafact-cli"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Ecuanexus/ecuafact-cli/releases/download/v$version/ecuafact-$version-win-x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/Ecuanexus/ecuafact-cli/releases/download/v$version/ecuafact-$version-win-arm64.zip"
+            }
+        }
+    }
+}
