@@ -10,4 +10,4 @@ ecuafact --version
 
 Actualizar: `scoop update ecuafact-preview`. Desinstalar: `scoop uninstall ecuafact-preview`.
 
-Documentación del CLI: <https://github.com/Ecuanexus/ecuafact-cli>.
+Documentación del CLI: <https://docsapi.ecuafact.com/v1/guias/cli>.
